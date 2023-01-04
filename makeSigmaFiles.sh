@@ -18,6 +18,9 @@ rule_list="${exec_path}/SigmaFiles.txt"
 ## Low
 #`grep -R "severity: Low" ${repo_path} | grep "yaml" | awk -F ":" '{print $1}' > ${rule_list}`
 
+## Informational
+#`grep -R "severity: Informational" ${repo_path} | grep "yaml" | awk -F ":" '{print $1}' > ${rule_list}`
+
 ## 
 # Status
 ## Available rules

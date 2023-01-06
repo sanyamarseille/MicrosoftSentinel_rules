@@ -4,9 +4,8 @@
 # Azure Sentinel Repo
 Azure-Sentinel/
 
-# Sigma File List
-SigmaFiles.txt
-
 # Result files
 *.log
 
+# caches
+__pycache__
